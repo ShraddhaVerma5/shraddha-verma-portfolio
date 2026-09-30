@@ -1,0 +1,5 @@
+.skills{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.skills__card{padding:clamp(18px,3vw,24px);height:100%}
+.skills__title{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--lav-200);margin:0 0 14px;font-weight:500}
+.skills__tags{display:flex;flex-wrap:wrap;gap:8px}
+@media (max-width:699px){.skills{grid-template-columns:1fr}}

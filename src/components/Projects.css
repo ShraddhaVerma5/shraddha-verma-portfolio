@@ -1,0 +1,11 @@
+.proj{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.proj__card{height:100%;display:flex;flex-direction:column;gap:14px;border-radius:16px;padding:clamp(20px,3vw,26px)}
+@media (hover:hover){.proj__card:hover{transform:translateY(-6px);border-color:var(--lav-400);box-shadow:0 16px 40px rgba(99,64,127,.3)}}
+.proj__head{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 10px}
+.proj__title{font-weight:700;font-size:clamp(16px,2.4vw,18px);margin:0}
+.proj__date{font-size:11px;color:var(--text-faint);margin-top:4px}
+.proj__desc{color:var(--text-dim);font-size:14px;flex-grow:1;margin:0}
+.proj__stack{display:flex;flex-wrap:wrap;gap:6px}
+.proj__link{font-size:12.5px;color:var(--lav-100);width:fit-content;padding:4px 0;border-bottom:1px solid transparent;transition:border-color .2s}
+.proj__link:hover{border-color:var(--lav-300)}
+@media (max-width:759px){.proj{grid-template-columns:1fr}}

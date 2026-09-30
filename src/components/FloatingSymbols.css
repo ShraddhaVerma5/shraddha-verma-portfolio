@@ -1,0 +1,2 @@
+.float{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.float__item{position:absolute;bottom:-10%;color:rgba(192,142,235,.22);animation:floatUp linear infinite;will-change:transform}

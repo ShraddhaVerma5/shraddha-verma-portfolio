@@ -1,0 +1,4 @@
+.bg{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+.bg__glow{position:absolute;border-radius:50%;filter:blur(120px)}
+.bg__glow--a{top:-160px;right:0;width:min(600px,100vw);height:500px;background:rgba(166,108,222,.18);animation:pulseGlow 5s ease-in-out infinite}
+.bg__glow--b{top:30%;left:-160px;width:min(500px,80vw);height:500px;background:rgba(192,142,235,.10);animation:pulseGlow 6s ease-in-out infinite}

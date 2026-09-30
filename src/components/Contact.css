@@ -1,0 +1,8 @@
+.contact{position:relative;z-index:1;text-align:center;padding:clamp(60px,10vw,90px) var(--pad) 110px}
+.contact__eyebrow{justify-content:center;margin-bottom:12px}
+.contact__title{font-weight:800;font-size:clamp(28px,5vw,40px);background:linear-gradient(120deg,var(--lav-100),var(--lav-300));-webkit-background-clip:text;background-clip:text;color:transparent;margin:0 0 16px}
+.contact__sub{color:var(--text-faint);margin:0 0 36px;font-size:15px}
+.contact__links{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:50px}
+.contact__link{padding:12px 22px;border-radius:9px;max-width:100%}
+.contact__copy{font-size:11.5px;color:var(--text-faint)}
+@media (max-width:540px){.contact__links{flex-direction:column;align-items:stretch}}

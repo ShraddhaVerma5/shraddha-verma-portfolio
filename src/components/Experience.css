@@ -1,0 +1,13 @@
+.exp{border-left:2px solid var(--line);margin-left:8px;padding-left:clamp(22px,4vw,34px);display:flex;flex-direction:column;gap:38px}
+.exp__item{position:relative}
+.exp__node{position:absolute;left:calc(-1 * clamp(22px,4vw,34px) - 7px);top:4px;width:12px;height:12px;border-radius:50%;background:var(--lav-300);box-shadow:0 0 0 4px rgba(166,108,222,.18)}
+.exp__hash{font-size:12px;color:var(--lav-400)}
+.exp__head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:4px 0}
+.exp__role{font-weight:700;font-size:clamp(17px,2.6vw,19px);margin:0}
+.exp__date{font-size:12px;color:var(--text-faint);margin-left:auto}
+.exp__org{font-size:13.5px;color:var(--lav-200);margin-bottom:12px}
+.exp__list{margin:0;padding:0;list-style:none;color:var(--text-dim);font-size:14.5px}
+.exp__list li{position:relative;padding-left:18px;margin-bottom:7px}
+.exp__list li span{position:absolute;left:0;color:var(--lav-400)}
+.exp__stack{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+@media (max-width:540px){.exp__date{margin-left:0;width:100%}}

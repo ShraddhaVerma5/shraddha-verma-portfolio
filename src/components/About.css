@@ -1,0 +1,7 @@
+.about{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,50px)}
+.about p{color:var(--text-dim);font-size:15.5px;margin:0 0 16px}
+.about__stats{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.about__stat{padding:clamp(16px,3vw,22px)}
+.about__num{font-size:28px;font-weight:700;color:var(--lav-100)}
+.about__label{font-size:12px;color:var(--text-faint);margin-top:4px}
+@media (max-width:859px){.about{grid-template-columns:1fr}}

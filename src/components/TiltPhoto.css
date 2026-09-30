@@ -1,0 +1,7 @@
+.photo{position:relative;max-width:300px;margin:0 auto;width:100%}
+.photo__glow{position:absolute;inset:-16px;border-radius:28px;background:linear-gradient(135deg,var(--lav-300),var(--lav-500));opacity:.55;filter:blur(22px);animation:pulseGlow 4s ease-in-out infinite}
+.photo__frame{position:relative;z-index:1;border-radius:22px;transition:transform .25s ease}
+.photo__img{width:100%;aspect-ratio:3/3.9;object-fit:cover;object-position:center top;border-radius:22px;border:1px solid rgba(224,195,252,.3);display:block}
+.photo__badge{position:absolute;bottom:14px;left:14px;background:rgba(21,12,34,.85);border:1px solid var(--line);padding:6px 12px;border-radius:8px;font-size:11.5px;backdrop-filter:blur(6px);color:var(--lav-100)}
+.photo__ring{position:absolute;top:-14px;right:-14px;width:46px;height:46px;border-radius:50%;border:2px dashed rgba(192,142,235,.4);animation:spinSlow 9s linear infinite}
+@media (max-width:859px){.photo{max-width:240px}.photo__ring{right:-8px}}

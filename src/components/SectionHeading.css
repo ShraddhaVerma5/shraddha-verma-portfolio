@@ -1,0 +1,6 @@
+.section{position:relative;z-index:1}
+.section--band{background:linear-gradient(180deg,transparent,rgba(36,22,56,.5),transparent)}
+.sh{margin-bottom:clamp(28px,5vw,44px)}
+.sh .eyebrow{margin-bottom:8px}
+.sh__title{font-weight:700;font-size:clamp(26px,4vw,36px);margin:0 0 12px;line-height:1.2}
+.sh__sub{color:var(--text-faint);max-width:600px;font-size:15px;margin:0}
