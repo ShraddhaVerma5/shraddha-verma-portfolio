@@ -3,7 +3,7 @@ export const profile = {
   email: "vnsvermashraddha@gmail.com",
   phone: "+91-8303928026",
   phoneHref: "tel:+918303928026",
-  linkedin: "https://www.linkedin.com/in/shraddha-verma-331b11290/",
+  linkedin: "https://www.linkedin.com/in/shraddha-verma-331b11290",
   github: "https://github.com/ShraddhaVerma5",
   location: "Varanasi, UP",
 };
